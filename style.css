@@ -96,14 +96,14 @@ header{
 
 .logo{
     margin: auto; /* t r b l */
-    margin-left: 50px;
+    margin-left: 3vw;
     text-align: center;
     height: 10vh;
     line-height: 10vh;
     min-height: 50px;
     float: left;
     color: #990000;
-    font-size: 35px;
+    font-size: 25pt;
     font-weight: bold;
     letter-spacing: -2px;
 }
@@ -118,6 +118,7 @@ header{
 .menu-area li{
     display: inline-block;
     margin: auto;
+    margin-top: -1vh;
     height: 10vh;
     line-height: 10vh;
 }
