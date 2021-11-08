@@ -62,22 +62,24 @@ header{
 
 .vid-overlay-text{
     margin: 0px 20px 20px 50px; /* t r b l */
+    padding-top: 60vh;
+    height: auto;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    z-index: 0;
+}
+
+.vid-overlay-text-1{
+    margin-left: -160px; /* t r b l */
     padding-top: 80vh;
     height: auto;
     float: left;
     color: #fff;
     font-size: 25px;
     font-weight: bold;
-    letter-spacing: -2px;
-    z-index: 0;
-}
-
-.vid-overlay-text h2{
-    margin-top: -30px;
-    float: left;
-    color: #fff;
-    font-size: 35px;
-    font-weight: normal;
     letter-spacing: -2px;
     z-index: 0;
 }
