@@ -87,15 +87,20 @@ header{
 .nav-area{
     background: #fff;
     box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
-    height: 100px;
+    height: 10vh;
+    min-height: 70px;
     position: absolute;
     width: 100%;
     z-index: 100;
 }
 
 .logo{
-    margin: 25px 20px 20px 50px; /* t r b l */
-    height: 60px;
+    margin: auto; /* t r b l */
+    margin-left: 50px;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    min-height: 50px;
     float: left;
     color: #990000;
     font-size: 35px;
@@ -107,11 +112,14 @@ header{
     float: right;
     list-style: none;
     padding-right: 50px;
+    text-align: center;
 }
 
 .menu-area li{
     display: inline-block;
-    margin: 15px 20px 20px -50px;
+    margin: auto;
+    height: 10vh;
+    line-height: 10vh;
 }
 
 .custom-btn {
