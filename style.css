@@ -31,8 +31,8 @@ a {
 .header nav{
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
-    height: 9vw;
+    position: sticky;
+    height: 8vw;
     min-height: 4em;
     width: 100%;
     z-index: 3;
@@ -59,7 +59,7 @@ a {
 
 .header nav li a {
     display: block;
-    padding: 20px 20px 20px 31px;
+    padding: 20px 20px 20px max(5vw, 26px);
     text-decoration: none;
 }
 
@@ -159,18 +159,19 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 45em) {
+@media (min-width: 50em) {
   .header nav {
     max-height: 6em;
   }
-    .header li {
+    .header nav li {
     float: left;
     }
     .header li span {
-        padding-right: 10px;
+        margin-left: 0;
     }
-    .header li a {
-    padding: 0px 0px;
+    .header nav li a {
+    padding: 1em 2em;
+    text-align: center;
     }
     .header .menu {
     clear: none;
@@ -219,4 +220,8 @@ a {
     height: 100vh;
     object-fit: fill;
     z-index: -100;
+}
+
+.about {
+    height: 100%;
 }
