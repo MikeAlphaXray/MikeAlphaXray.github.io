@@ -166,8 +166,11 @@ a {
     .header li {
     float: left;
     }
+    .header li span {
+        padding-right: 10px;
+    }
     .header li a {
-    padding: 20px 30px;
+    padding: 0px 0px;
     }
     .header .menu {
     clear: none;
