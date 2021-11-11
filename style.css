@@ -205,24 +205,30 @@ section {
 .body-section {
     position: relative;
     width: 100%;
-    align-content: center;
     display: flex;
-    flex-direction: row;
 }
 .body-section .section-text{
-    width: 50vw;
+    width: 80vw;
     margin: 5vw auto;
-    margin-left: 10vw;
-    display: block;
+    margin-left: 12vw;
+    display: flex;
     text-align: left;
 }
 
+.body-section .section-text img {
+    margin: 1em 1em;
+    padding-top: 10vw;
+    height: 20vw;
+    width: 20vw;
+
+}
+
+
 /* mobile */
-@media (max-width: 60em) {
+@media (max-width: 50em) {
     section {
         height: 50%;
     }
-    
     .body-section {
         position: relative;
         width: 90%;
