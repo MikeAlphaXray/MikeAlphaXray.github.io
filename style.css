@@ -30,6 +30,9 @@ h1 {
     font-size: 2em;
     font-weight: bold;
 }
+p {
+    font-size: 15pt;
+}
 /* header */
 header {
     height: 100vh;
@@ -205,22 +208,38 @@ section {
 .body-section {
     position: relative;
     width: 100%;
-    display: flex;
+    display: block;
 }
+
+.body-section .heading{
+    display: none;
+}
+
+.body-section .heading-wide{
+    width: 80vw;
+    margin: 10vw 10vw;
+    margin-bottom: 0em;
+}
+
 .body-section .section-text{
     width: 80vw;
     margin: 5vw auto;
-    margin-left: 12vw;
+    margin-top: 0em;
+    margin-left: 10vw;
     display: flex;
     text-align: left;
 }
-
-.body-section .section-text img {
-    margin: 1em 1em;
-    padding-top: 10vw;
-    height: 20vw;
-    width: 20vw;
-
+.body-section .section-text img.avatar {
+    display: none;
+}
+.body-section .section-text img.avatar-wide {
+    margin: 2em 2em;
+    padding-top: 0em;
+    height: min(30vw, 10em);
+    width: min(30vw, 10em);
+}
+.body-section .section-text .paragraph{
+    padding-top: 0em;
 }
 
 
@@ -234,6 +253,15 @@ section {
         width: 90%;
         display: flex;
     }
+    .body-section .heading{
+        display: block;
+        width: 80vw;
+        margin: 5vw auto;
+    }
+    
+    .body-section .heading-wide{
+        display: none;
+    }
     .body-section .section-text{
         width: 100%;
         margin: 5vw auto;
@@ -242,4 +270,17 @@ section {
         display: block;
         text-align: left;
     }
+    .body-section .section-text img.avatar {
+        display: block;
+        margin: 1em 1em;
+        margin-left: 0em;
+        margin-bottom: 2em;
+        height: min(30vw, 10em);
+        width: min(30vw, 10em);
+    }
+    .body-section .section-text img.avatar-wide {
+        display: none;
+    }
+
+    
 }
