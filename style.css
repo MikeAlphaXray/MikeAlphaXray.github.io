@@ -13,6 +13,7 @@
     src: url("fonts/AvenirNextLTPro-Light.woff") format('woff');
     font-weight: lighter;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -32,6 +33,12 @@ h1 {
 }
 p {
     font-size: 15pt;
+}
+figcaption {
+    font-size: 15pt;
+}
+figcaption span{
+    font-size: 18pt;
 }
 /* header */
 header {
@@ -209,6 +216,7 @@ section {
     position: relative;
     width: 100%;
     display: block;
+    align-items: center;
 }
 
 .body-section .heading{
@@ -216,32 +224,55 @@ section {
 }
 
 .body-section .heading-wide{
-    width: 80vw;
-    margin: 10vw 10vw;
+    max-width: 1000px;
+    margin: 10vw auto;
     margin-bottom: 0em;
 }
 
+.body-section .section-text-wrapper{
+    padding: 0 4em;
+}
+
 .body-section .section-text{
-    width: 80vw;
+    max-width: 1000px;
     margin: 5vw auto;
+    margin-bottom: 0em;
     margin-top: 0em;
-    margin-left: 10vw;
     display: flex;
     text-align: left;
 }
-.body-section .section-text img.avatar {
+.body-section .section-text .avatar {
     display: none;
 }
-.body-section .section-text img.avatar-wide {
-    margin: 2em 2em;
-    padding-top: 0em;
-    height: min(30vw, 10em);
-    width: min(30vw, 10em);
+.body-section .section-text .avatar-wide {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: min(18vw, 14em);
+    width: min(18vw, 14em);
 }
 .body-section .section-text .paragraph{
     padding-top: 0em;
 }
+.body-section .section-text figure.avatar-wide {
+    width: 100%;
+}
+.body-section .section-text figure.avatar-wide figcaption {
+    font-size: min(15pt, 1.8vw);
+}
+.body-section .section-text figure.avatar-wide figcaption span {
+    font-size: 18pt;
+}
 
+.body-section .section-text figure.avatar-wide figcaption a {
+    font-size: 18pt;
+}
+
+.fa {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    margin-top: 0.5em;
+
+}
 
 /* mobile */
 @media (max-width: 50em) {
@@ -262,23 +293,36 @@ section {
     .body-section .heading-wide{
         display: none;
     }
+
     .body-section .section-text{
         width: 100%;
         margin: 5vw auto;
-        margin-left: 10vw;
         position: inherit;
         display: block;
         text-align: left;
     }
-    .body-section .section-text img.avatar {
+    .body-section .section-text .avatar {
         display: block;
         margin: 1em 1em;
+        margin-top: 0em;
         margin-left: 0em;
         margin-bottom: 2em;
         height: min(30vw, 10em);
         width: min(30vw, 10em);
     }
-    .body-section .section-text img.avatar-wide {
+    .body-section .section-text .avatar {
+        display: flex;
+    }
+    .body-section .section-text figure.avatar {
+        width: 100%;
+    }
+    .body-section .section-text figure.avatar figcaption {
+        font-size: min(15pt, 4.5vw);
+    }
+    .body-section .section-text figure.avatar figcaption span {
+        font-size: 18pt;
+    }
+    .body-section .section-text .avatar-wide {
         display: none;
     }
 
