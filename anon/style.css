@@ -288,11 +288,11 @@ section {
 }
 .body-section .section-text figure.avatar-wide figcaption a.fa-map-marker {
     margin-right: 4px;
-    font-size: min(15pt, 1.7vw);
+    font-size: min(15pt, 1.8vw);
 }
 .body-section .section-text figure.avatar-wide figcaption a.fa-map-marker-txt {
     margin-left: 2px;
-    font-size: min(15pt, 1.7vw);
+    font-size: min(15pt, 1.8vw);
     font-family: Avenir;
     font-weight: inherit;
 }
@@ -360,7 +360,7 @@ section {
     }
     .body-section .section-text figure.avatar figcaption a.fa-map-marker-txt {
         margin-left: 2px;
-        font-size: min(14pt, 4.5vw);
+        font-size: min(14pt, 4.9vw);
         font-family: Avenir;
         font-weight: inherit;
     }
