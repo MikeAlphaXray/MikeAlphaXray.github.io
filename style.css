@@ -47,6 +47,7 @@ figcaption span{
 /* header */
 header {
     height: 100vh;
+    width: 100vw;
 }
 .header nav{
     background-color: #fff;
@@ -212,7 +213,7 @@ header {
 
 .vid-overlay-text{
     margin: max(5vw, 20px); /* t r b l */
-    margin-top: calc(100vh - 13em);
+    margin-top: calc(100vh - 12em);
     color: #fff;
     font-size: min(35px, 9vw);
     font-weight: normal;
@@ -311,12 +312,12 @@ section {
     }
     .body-section {
         position: relative;
-        width: 90%;
+        width: 100%;
         display: flex;
     }
     .body-section .heading{
         display: block;
-        width: 80vw;
+        width: 100%;
         margin: 5vw auto;
     }
     
@@ -332,21 +333,18 @@ section {
         text-align: left;
     }
     .body-section .section-text-wrapper{
-        padding: 0 2em;
+        padding: 0 10vw;
         box-sizing: border-box;
         width: 100vw;
     }
     .body-section .section-text .avatar {
-        display: block;
+        display: flex;
         margin: 1em 1em;
         margin-top: 0em;
         margin-left: 0em;
         margin-bottom: 2em;
         height: min(30vw, 10em);
         width: min(30vw, 10em);
-    }
-    .body-section .section-text .avatar {
-        display: flex;
     }
     .body-section .section-text figure.avatar {
         width: 100%;
