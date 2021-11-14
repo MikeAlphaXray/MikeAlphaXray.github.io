@@ -212,7 +212,7 @@ header {
 
 .vid-overlay-text{
     margin: max(5vw, 20px); /* t r b l */
-    margin-top: calc(100vh - 11em);
+    margin-top: calc(100vh - 13em);
     color: #fff;
     font-size: min(35px, 9vw);
     font-weight: normal;
