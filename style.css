@@ -331,6 +331,11 @@ section {
         display: block;
         text-align: left;
     }
+    .body-section .section-text-wrapper{
+        padding: 0 2em;
+        box-sizing: border-box;
+        width: 100vw;
+    }
     .body-section .section-text .avatar {
         display: block;
         margin: 1em 1em;
