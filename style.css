@@ -45,6 +45,9 @@ figcaption span{
     font-size: 18pt;
 }
 /* header */
+header {
+    height: 100vh;
+}
 .header nav{
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
